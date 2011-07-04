@@ -5,6 +5,7 @@
 .DS_Store
 *.swp
 *.tmp
+*.bak
 *~
 ccp_dump.db
 build
@@ -13,4 +14,3 @@ apps/eve_db
 apps/eve_proxy
 apps/eve_api
 local_settings.py
-FOOBAR
