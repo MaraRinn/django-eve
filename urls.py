@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-    url(r'^admin/(.*)', admin.site.root),
+    url(r'^admin/(.*)', admin.site.urls),
     # This is the entry you'd need if you just wanted to serve a proxy.
     # You'll need to create another site if you want to serve this alongside
     # other content.
